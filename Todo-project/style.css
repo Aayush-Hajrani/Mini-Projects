@@ -1,0 +1,38 @@
+body {
+    text-transform: capitalize;
+    padding: 50px;
+}
+
+.title h1 {
+    font-size: 3rem;
+}
+
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#label {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.list-group-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.delete,
+.edit {
+    margin-left: 5px;
+}
+
+.btn {
+    text-transform: capitalize;
+}
+
+#submit {
+    margin-left: 5px;
+    height: 40px;
+}

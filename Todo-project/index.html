@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header text-center mb-3">
+        <div class="title">
+            <h1>todo list</h1>
+        </div>
+    </div>
+
+    <div class="container form-container">
+        <h2>add items</h2>
+        <form id="addForm">
+            <div class="input-group mb-3">
+                <input class="form-control mb-2" id="item" placeholder="Add a task" />
+                <input type="button" id="submit" class="btn btn-primary" value="submit">
+
+            </div>
+        </form>
+    </div>
+
+    <div class="container form-container">
+        <h3 class="mt-4 text-center fs-5">tasks</h3>
+        <ul id="items" class="list-group"></ul>
+        <div id="label" class="alert alert-info mt-3" style="display:  none;"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
